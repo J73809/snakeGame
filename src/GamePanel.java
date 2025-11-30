@@ -11,7 +11,6 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener {
     static final int WIDTH = 800;
     static final int HEIGHT = 800;
     static final int UNIT_SIZE = 50;
-    static final int GAME_SIZE = (WIDTH * HEIGHT) / UNIT_SIZE;
     static int SCORE = 0;
 
     Timer timer;
